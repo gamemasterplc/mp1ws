@@ -2361,8 +2361,8 @@ addiu a0, r0, ((SCREEN_W/2)-95) //Fix X Position of Piranha Plant Wont Bother
 
 .headersize 0x800F65E0-0x246DF0 //Yoshi Tropical Island Segment
 
-.org 0x800F7864
-addiu a0, r0, ((SCREEN_W/2)-95) //Fix X Position of Whomp Toll Window
+.org 0x800F77CC
+addiu a0, r0, ((SCREEN_W/2)-82) //Fix X Position of Whomp Toll Window
 
 .org 0x800F7C30
 addiu a0, r0, ((SCREEN_W/2)-95) //Fix X Position of 20 Coin Bonus Window
