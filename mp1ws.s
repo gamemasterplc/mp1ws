@@ -2414,9 +2414,6 @@ addiu a0, r0, ((SCREEN_W/2)-88) //Fix X Position of 10 Coin Bonus Window
 .org 0x800F7680
 addiu a0, r0, ((SCREEN_W/2)-66) //X Position of Dont Have 10 Coins Text
 
-.org 0x800F771C
-addiu a0, r0, ((SCREEN_W/2)-70) //Fix X Position of No Shortcut Window
-
 .org 0x800F7A60
 addiu a2, r0, (SCREEN_W/2) //X Position of Bowser Magma Mountain Red Filter
 
